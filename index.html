@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/main.js" defer></script>
+    <title>Text-To-Speech</title>
+    <style>
+        body {
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 1rem;
+        }
+
+        #text-input {
+            width: 100%;
+            height: 50vh;
+            margin-bottom: 1rem;
+        }
+
+        select {
+            display: block;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        button {
+            margin-left: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <textarea id="text-input" ></textarea>
+    <label for="select-voice">Select voice:</label>
+    <select id="select-voice" ></select>
+    <label for="speed">Speed:</label>
+    <input type="number" name="speed" id="speed-input" value="1" min=".5" max="3" step=".5">
+    <button id="play-btn" >Play</button>
+    <button id="pause-btn" >Pause</button>
+    <button id="stop-btn" >Stop</button>
+
+</body>
+</html>

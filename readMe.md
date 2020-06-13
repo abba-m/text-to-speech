@@ -1,0 +1,1 @@
+This is a mini text to speech web app that explores the browser speech sythesis API.
